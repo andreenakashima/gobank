@@ -14,4 +14,13 @@ GET http://localhost:3000/account
 GET http://localhost:3000/account/2
 
 ###
-DELETE http://localhost:3000/account/2
+DELETE http://localhost:3000/account/1
+
+###
+POST http://localhost:3000/transfer
+Content-Type: application/json
+
+{
+  "toAccount": 123123,
+  "amount": 123123
+}
